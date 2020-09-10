@@ -5,23 +5,36 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* All fo this is header */
+/* The different parts together */
 header {
   background-color: #7c887e;
-  height: 125px;
+  height: 12.5vh;
+  width: 100vw;
+}
+.homeBody {
+  background-color: #d3d2cd;
+  height: 80.5vh;
+}
+footer {
+  background-color: #91967f;
+  height: 7vh;
 }
 
-.logoName {
+/* This is for all platforms */
+.content {
+  margin: 0 10%;
+}
+
+/* All fo this is header */
+.logo {
   font-size: 45px;
   float: left;
-  margin: 42px 0 0 130px;
+  margin-top: 35px;
 }
-
 .navBar {
   float: right;
-  margin: 75px 130px 0 0;
+  margin-top: 85px;
 }
-
 .navBar a {
   display: inline-block;
   margin-left: 30px;
@@ -30,31 +43,50 @@ header {
   text-transform: uppercase;
   text-decoration: none;
 }
-
 nav a:hover {
   color: #d3d2cd;
 }
 
-/* All of this is body */
-
-/* All of this is Footer */
-footer {
-  background-color: #91967f;
-  height: 50px;
+/* Body of Main */
+.left {
+  width: 55%;
+  float: left;
+}
+.bodyTitle p {
+  font-size: 55px;
+  text-align: center;
+  margin-top: 200px;
+}
+.bodyContent p {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 45px;
+  padding: 0 50px;
+}
+.right {
+  width: 45%;
+  float: right;
+}
+.right img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin: 160px 0 0 100px;
 }
 
+/* Body of Resume */
+
+/* All of this is Footer */
 .copyRight {
   float: left;
-  margin: 14px 0 0 130px;
+  margin-top: 22px;
   font-size: 15px;
   color: #d3d2cd;
 }
-
 .mediaIcon {
   float: right;
-  margin: 14px 130px 0 0;
+  margin-top: 20px;
 }
-
 .mediaIcon a {
   display: inline-block;
   margin-left: 25px;

@@ -5,27 +5,17 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* The different parts together */
-header {
-  background-color: #7c887e;
-  height: 12.5vh;
-  width: 100vw;
-}
-.homeBody {
-  background-color: #d3d2cd;
-  height: 80.5vh;
-}
-footer {
-  background-color: #91967f;
-  height: 7vh;
-}
-
 /* This is for all platforms */
 .content {
   margin: 0 10%;
 }
 
 /* All fo this is header */
+header {
+  background-color: #7c887e;
+  height: 12.5vh;
+  width: 100vw;
+}
 .logo {
   font-size: 45px;
   float: left;
@@ -47,9 +37,20 @@ nav a:hover {
   color: #d3d2cd;
 }
 
+/* body info */
+.homeBody {
+  background-color: #d3d2cd;
+  height: 80.5vh;
+}
+.body {
+  background-color: #d3d2cd;
+  height: 80.5vh;
+}
+
 /* Body of Main */
-.left {
-  width: 55%;
+.left,
+.right {
+  width: 50%;
   float: left;
 }
 .bodyTitle p {
@@ -63,10 +64,6 @@ nav a:hover {
   margin-top: 45px;
   padding: 0 50px;
 }
-.right {
-  width: 45%;
-  float: right;
-}
 .right img {
   width: 400px;
   height: 400px;
@@ -75,8 +72,65 @@ nav a:hover {
 }
 
 /* Body of Blog */
+.blogLeftColor,
+.blogRightColor {
+  background-color: #726870;
+  height: 80.5vh;
+  width: 10vw;
+  float: left;
+}
+.blog {
+  background-color: #d3d2cd;
+  height: 80.5vh;
+  width: 80vw;
+  float: left;
+}
+.hawaiiLeftColor,
+.hawaiiRightColor {
+  background-color: #726870;
+  height: 100vh;
+  width: 10vw;
+  float: left;
+}
+.hawaii {
+  background-color: #d3d2cd;
+  height: 100vh;
+  width: 80vw;
+  float: left;
+}
+.post {
+  margin: 40px 260px 20px 260px;
+}
+.post h2 {
+  text-align: center;
+  font-size: 48px;
+}
+.post h6 {
+  margin: 5px 0 15px 0;
+  text-align: center;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: italic;
+}
+.post p {
+  font-size: 16px;
+}
+.post p a {
+  font-style: italic;
+  color: #000;
+  text-decoration: none;
+}
+.post p a:hover {
+  text-decoration: underline;
+  color: #000;
+}
 
 /* All of this is Footer */
+footer {
+  background-color: #91967f;
+  height: 7vh;
+  width: 100vw;
+}
 .copyRight {
   float: left;
   margin-top: 22px;

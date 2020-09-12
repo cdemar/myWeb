@@ -23,7 +23,7 @@ header {
 }
 .navBar {
   float: right;
-  margin-top: 85px;
+  margin-top: 71px;
 }
 .navBar a {
   display: inline-block;
@@ -42,12 +42,6 @@ nav a:hover {
   background-color: #d3d2cd;
   height: 80.5vh;
 }
-.body {
-  background-color: #d3d2cd;
-  height: 80.5vh;
-}
-
-/* Body of Main */
 .left,
 .right {
   width: 50%;
@@ -71,35 +65,19 @@ nav a:hover {
   margin: 160px 0 0 100px;
 }
 
-/* Body of Blog */
-.blogLeftColor,
-.blogRightColor {
+/* blog info */
+.body {
   background-color: #726870;
-  height: 80.5vh;
-  width: 10vw;
-  float: left;
+  min-height: 80.5vh;
 }
 .blog {
   background-color: #d3d2cd;
-  height: 80.5vh;
+  min-height: 80.5vh;
   width: 80vw;
-  float: left;
-}
-.hawaiiLeftColor,
-.hawaiiRightColor {
-  background-color: #726870;
-  height: 100vh;
-  width: 10vw;
-  float: left;
-}
-.hawaii {
-  background-color: #d3d2cd;
-  height: 100vh;
-  width: 80vw;
-  float: left;
+  margin: auto;
 }
 .post {
-  margin: 40px 260px 20px 260px;
+  padding: 30px 260px;
 }
 .post h2 {
   text-align: center;
@@ -114,6 +92,9 @@ nav a:hover {
 }
 .post p {
   font-size: 16px;
+  text-indent: 50px;
+  line-height: 1.6;
+  margin-bottom: 5px;
 }
 .post p a {
   font-style: italic;

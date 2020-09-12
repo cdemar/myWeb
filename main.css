@@ -98,12 +98,12 @@ nav a:hover {
 }
 .post p a {
   font-style: italic;
-  color: #000;
+  color: #05577f;
   text-decoration: none;
 }
 .post p a:hover {
   text-decoration: underline;
-  color: #000;
+  color: #05577f;
 }
 
 /* All of this is Footer */

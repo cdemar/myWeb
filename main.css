@@ -37,11 +37,26 @@ nav a:hover {
   color: #d3d2cd;
 }
 
-/* body info */
-.homeBody {
+/* Backgound Color */
+
+/* This is all gray */
+.grayBody {
   background-color: #d3d2cd;
-  height: 80.5vh;
+  min-height: 80.5vh;
 }
+/* These are with purple sides */
+.purpleBody {
+  background-color: #726870;
+  min-height: 80.5vh;
+}
+.blog {
+  background-color: #d3d2cd;
+  min-height: 80.5vh;
+  width: 80vw;
+  margin: auto;
+}
+
+/* body info */
 .left,
 .right {
   width: 50%;
@@ -66,16 +81,6 @@ nav a:hover {
 }
 
 /* blog info */
-.body {
-  background-color: #726870;
-  min-height: 80.5vh;
-}
-.blog {
-  background-color: #d3d2cd;
-  min-height: 80.5vh;
-  width: 80vw;
-  margin: auto;
-}
 .post {
   padding: 30px 260px;
 }

@@ -60,9 +60,14 @@ nav a:hover {
   background-color: #726870;
   min-height: 80.5vh;
 }
-.blog {
+.midGray {
   background-color: #d3d2cd;
   min-height: 80.5vh;
+  width: 80vw;
+  margin: auto;
+}
+.midGreen {
+  background-color: #bab79f;
   width: 80vw;
   margin: auto;
 }
@@ -123,8 +128,6 @@ nav a:hover {
 }
 
 /* Resume Info*/
-.summary,
-.skill,
 .education,
 .job,
 .volunteer,
@@ -132,7 +135,9 @@ nav a:hover {
 .other {
   padding: 30px 140px;
 }
-.summary h1,
+.skill {
+  padding: 30px 140px 313px 140px;
+}
 .skill h1,
 .education h1,
 .job h1,
@@ -142,17 +147,6 @@ nav a:hover {
   text-align: center;
   font-size: 48px;
   padding-bottom: 30px;
-}
-.summary p {
-  font-size: 16px;
-  text-indent: 50px;
-  line-height: 1.6;
-  margin-bottom: 5px;
-}
-.left,
-.right {
-  width: 50%;
-  float: left;
 }
 .skill h2 {
   text-align: center;

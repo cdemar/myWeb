@@ -6,8 +6,19 @@
 }
 
 /* This is for all platforms */
-.content {
+.margin {
   margin: 0 10%;
+}
+ul {
+  list-style-type: circle;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+a:hover {
+  text-decoration: underline;
+  color: #05577f;
 }
 
 /* All fo this is header */
@@ -109,6 +120,85 @@ nav a:hover {
 .post p a:hover {
   text-decoration: underline;
   color: #05577f;
+}
+
+/* Resume Info*/
+.summary,
+.skill,
+.education,
+.job,
+.volunteer,
+.projects,
+.other {
+  padding: 30px 140px;
+}
+.summary h1,
+.skill h1,
+.education h1,
+.job h1,
+.volunteer h1,
+.projects h1,
+.other h1 {
+  text-align: center;
+  font-size: 48px;
+  padding-bottom: 30px;
+}
+.summary p {
+  font-size: 16px;
+  text-indent: 50px;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+.left,
+.right {
+  width: 50%;
+  float: left;
+}
+.skill h2 {
+  text-align: center;
+  font-size: 24px;
+}
+.skill ul {
+  font-size: 16px;
+  padding: 20px 0 50px 100px;
+}
+.skill li {
+  padding-top: 15px;
+}
+.edu h2 {
+  padding: 15px 0;
+}
+.edu li {
+  padding: 8px;
+  text-indent: 20px;
+}
+.content {
+  padding: 50px 0 20px 0;
+  font-size: 16px;
+  text-indent: 50px;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+.work h2,
+.vol h2,
+.info h2 {
+  width: 80%;
+  float: left;
+}
+.date {
+  width: 20%;
+  float: left;
+}
+.work ul,
+.info ul {
+  padding: 20px 0 40px 20px;
+}
+.projContent {
+  padding: 20px 0 40px 0;
+}
+.work li,
+.info li {
+  padding-top: 15px;
 }
 
 /* All of this is Footer */

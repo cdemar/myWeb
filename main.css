@@ -5,21 +5,9 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* h2 - resume */
-
 /* This is for all platforms */
 .margin {
   margin: 0 10%;
-}
-.unboldLeft {
-  font-weight: normal;
-  float: left;
-  color: purple;
-}
-.unboldRight {
-  font-weight: normal;
-  float: left;
-  color: purple;
 }
 ul {
   list-style-type: square;
@@ -29,7 +17,7 @@ h1 {
   font-size: 48px;
 }
 p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.6;
 }
 a {
@@ -120,12 +108,14 @@ footer {
   font-size: 55px;
   text-align: center;
   margin-top: 200px;
+  line-height: 1.4;
 }
 .bodyContent p {
   font-size: 30px;
-  text-align: center; /**/
+  text-align: center;
   margin-top: 45px;
   padding: 0 50px;
+  line-height: 1.4;
 }
 .right img {
   width: 400px;
@@ -161,9 +151,10 @@ footer {
 .projects,
 .other {
   padding: 30px 140px;
+  font-size: 20px;
 }
 .skill {
-  padding: 30px 140px 313px 140px;
+  padding: 30px 140px 345px 140px;
 }
 .skill h1,
 .education h1,
@@ -182,10 +173,19 @@ footer {
 }
 .skill li {
   padding-top: 15px;
+  font-size: 20px;
 }
 .edu h2 {
   padding: 15px 0;
+  font-size: 24px;
 }
+.notbold {
+  font-weight: normal;
+}
+​ .edu p {
+  font-size: 24px;
+}
+
 .edu li {
   padding: 8px;
   text-indent: 20px;

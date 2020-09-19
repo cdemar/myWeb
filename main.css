@@ -64,6 +64,7 @@ footer {
   float: left;
   margin-top: 22px;
   color: #d3d2cd;
+  font-size: 16px;
 }
 .mediaIcon {
   float: right;
@@ -114,7 +115,7 @@ footer {
   font-size: 30px;
   text-align: center;
   margin-top: 45px;
-  padding: 0 50px;
+  padding: 0 75px;
   line-height: 1.4;
 }
 .right img {
